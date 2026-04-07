@@ -1,0 +1,141 @@
+{
+  "name": "R4Nz APIs",
+  "version": "v1.0.0",
+  "description": "Simple and easy to use API.",
+  "bannerImage": "/src/banner.jpg",
+  "header": {
+    "status": "Online!"
+  },
+  "apiSettings": {
+    "creator": "r4nzxy", 
+    "apikey": ["r4nzkey"]
+  },
+  "categories": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "name": "LuminAI",
+          "desc": "Talk with luminai",
+          "path": "/ai/luminai?text=",
+          "status": "ready",
+          "params": {
+            "text": "Text for luminai to respond to"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Downloader",
+      "items": [
+        {
+          "name": "TikTok Downloader",
+          "desc": "Download video/foto TikTok",
+          "path": "/downloader/tiktok?url=",
+          "status": "ready",
+          "params": {
+            "url": "Enter the vt tiktok link"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Random",
+      "items": [
+        {
+          "name": "Blue Archive",
+          "desc": "Blue Archive Random Images",
+          "path": "/random/ba",
+          "status": "ready"
+        }
+      ]
+    },
+    {
+      "name": "Nsfw",
+      "items": [
+        {
+          "name": "Hentai Video",
+          "desc": "Random video hentai",
+          "path": "/nsfw/hentaivid",
+          "status": "ready"
+        },
+        {
+          "name": "Bokep Video",
+          "desc": "Random video bokepi",
+          "path": "/nsfw/bokep",
+          "status": "ready"
+        }
+      ]
+    },
+    {
+      "name": "Search",
+      "items": [
+        {
+          "name": "YouTube",
+          "desc": "Video search",
+          "path": "/search/youtube?q=",
+          "status": "ready",
+          "params": {
+            "query": "input query"
+          }
+        },
+        {
+          "name": "Search Charakter",
+          "desc": "charakter",
+          "path": "/search/charakter?q=",
+          "status": "ready",
+          "params": {
+            "query": "input charakter"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Marga",
+      "items": [
+        {
+          "name": "Cek Post",
+          "desc": "cek postingan tiktok",
+          "path": "/marga/cekpost?username=",
+          "status": "ready",
+          "params": {
+            "username": "input username"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Stalking",
+      "items": [
+        {
+          "name": "TikTok Stalking",
+          "desc": "Stalking tiktok",
+          "path": "/stalk/tiktok?username=",
+          "status": "ready",
+          "params": {
+            "username": "input username"
+          }
+        },
+        {
+          "name": "Mobile Legends Stalking",
+          "desc": "Stalking mobile legends",
+          "path": "/stalk/ml?id=&zoneId=",
+          "status": "ready",
+          "params": {
+            "id": "Masukkan ID Mobile Legends",
+            "zoneId": "Masukkan Zone ID"
+          }
+        },
+        {
+          "name": "Roblox",
+          "desc": "Stalking roblox",
+          "path": "/stalk/roblox?username=",
+          "status": "ready",
+          "params": {
+            "username": "masukan username"
+          }
+        }
+      ]
+    }     
+  ]
+}
