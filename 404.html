@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>404 Tidak Ditemukan</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+  *, *::before, *::after {
+    margin: 0; padding: 0; box-sizing: border-box;
+  }
+
+  body {
+    background-color: #fafafa;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+
+  main.container {
+    max-width: 440px;
+    background: #fff;
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.08);
+    border-radius: 24px;
+    padding: 64px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+  }
+
+  .error-code {
+    font-size: 10rem;
+    font-weight: 900;
+    color: #5c45d6;
+    letter-spacing: 0.12em;
+    line-height: 1;
+  }
+
+  .message {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #333;
+    letter-spacing: 0.02em;
+  }
+
+  .sub-message {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 480px) {
+    main.container {
+      padding: 48px 24px;
+    }
+    .error-code {
+      font-size: 7rem;
+    }
+    .message {
+      font-size: 1.8rem;
+    }
+    .sub-message {
+      font-size: 1rem;
+      max-width: 100%;
+    }
+  }
+</style>
+</head>
+<body>
+  <main class="container" role="main" aria-labelledby="error-title" aria-describedby="error-desc">
+    <h1 id="error-title" class="error-code">404</h1>
+    <p class="message">Ups! Halaman tidak ditemukan.</p>
+    <p id="error-desc" class="sub-message">Halaman yang Anda cari mungkin telah dihapus atau sedang tidak tersedia untuk sementara waktu.</p>
+  </main>
+</body>
+</html>
